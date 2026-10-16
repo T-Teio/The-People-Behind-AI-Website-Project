@@ -5,16 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Project</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
-    <script>
-        $( function() {
-        $( "#menu" ).menu();
-        } );
-    </script>
-  <style>
-  .ui-menu { width: 150px; }
-  </style>
 </head>
 <body>
     <header class="site-header">
@@ -26,7 +16,16 @@
         <nav class="main-nav" aria-label="Main navigation">
             <ul id="menu">
                 <li><a href="#intro">Introduction</a></li>
-                <li>Experts</li>
+                <li class="dropdown">
+                    <a href="#experts">Experts</a>
+                    <ul class="submenu">
+                        <li><a href="#hoffman">Reid Hoffman</a></li>
+                        <li><a href="#yoshua">Yoshua Bengio</a></li>
+                        <li><a href="#gebru">Timnit Gebru</a></li>
+                        <li><a href="#liv">Liv Boeree</a></li>
+                        <li><a href="#shaw">Shaw Walters</a></li>
+                    </ul>
+                </li>
                 <li><a href="#comp">Comparison</a></li>
                 <li><a href="#ref">Group Reflection</a></li>
                 <li><a href="#disc">Discussion</a></li>
@@ -35,28 +34,47 @@
         </nav>
     </header>
     <main>
+        
         <section id="intro" class="intro">
-            
+                <h2>"The AI Doc" a Film by Daniel Roher</h2>
+                <div class="intro-container">
+                <div class="left-int">
+                    <h3>A Brief Introduction</h3>
+                    <ul>
+                        <li>&bull; "The AI Doc" is a movie designed to help people understand the advantages and disadvantages with AI and covers the environmental issues and potential benefits while also discussing if now is a good time for having kids or not</li>
+                    </ul>
+                </div>
+
+                <div class="right-int"><h3>Apocaloptimist</h3>
+                    <ul>
+                        <li>&bull; An Apocaloptimist is a person who can see both sides of a situation making them capable of explaining the bright sides and down sides of a particular subject while maintaining a neutral but hopeful view</li>
+                    </ul>
+                </div>
+                </div>
+                
         </section>
 
-        <section id="hoffman" class="hoffman">
+        <section class="experts">
 
-        </section>
+            <section id="hoffman" class="hoffman">
 
-        <section id="yoshua" class="yoshua">
+            </section>
 
-        </section>
+            <section id="yoshua" class="yoshua">
 
-        <section id="gebru" class="gebru">
+            </section>
 
-        </section>
+            <section id="gebru" class="gebru">
 
-        <section id="liv" class="liv">
+            </section>
 
-        </section>
+            <section id="liv" class="liv">
 
-        <section id="shaw" class="shaw">
+            </section>
 
+            <section id="shaw" class="shaw">
+
+            </section>
         </section>
 
         <section id="comp" class="comp">
