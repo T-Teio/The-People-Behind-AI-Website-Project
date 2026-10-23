@@ -206,6 +206,30 @@ main h2 {
     flex-wrap: wrap;
 }
 
+.yoshua {
+    display: flex;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+}
+
+.gebru {
+    display: flex;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+}
+
+.liv {
+    display: flex;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+}
+
+.shaw {
+    display: flex;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+}
+
 .expertList {
     justify-content: left;
     max-width: 400px;
@@ -226,6 +250,21 @@ main h2 {
 .expertList2 {
     justify-content: right;
     max-width: 400px;
+}
+
+/* comp stuff */
+.compSim {
+    display: inline-block;
+    padding: 3px 2px; border: 1px solid navy;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.compDif {
+    display: inline-block;
+    padding: 3px 2px;
+    border: 1px solid navy;
+    border-radius: 5px;
 }
 
 /* FOOTER CONTENT */
